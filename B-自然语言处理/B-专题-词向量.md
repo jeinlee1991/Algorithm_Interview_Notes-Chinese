@@ -453,7 +453,7 @@ Glove 也利用了**反向传播**来更新词向量，但是结构要更简单�
 # 其他实践
 ## 一般 embedding 维度的选择
 > [Feature Columns](https://www.tensorflow.org/versions/master/guide/feature_columns#indicator_and_embedding_columns)  |  TensorFlow 
-- 经验公式 `embedding_size = n_categories ** 0.25`
+- 经验公式 `embedding_size = vocab_size ** 0.25`
 - 在大型语料上训练的词向量维度通常会设置的更大一些，比如 `100~300`
     > 如果根据经验公式，是不需要这么大的，比如 200W 词表的词向量维度只需要 `200W ** 0.25 ≈ 37`
 
