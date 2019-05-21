@@ -211,6 +211,9 @@ Index
 - 词向量服从均匀分布 `[-0.5/m, 0.5/m]`，其中 `m` 为词向量的维度
 - 所有网络参数初始化为 `0`
 
+# elmo
+- elmo算法介绍 https://blog.csdn.net/triplemeng/article/details/82380202
+
 # GloVe
 > CS224d - L2&3-词向量
 
